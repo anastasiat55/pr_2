@@ -1,5 +1,5 @@
 // Практична 2 (інтерактивність)
-// Посилання на файл: https://github.com/anastasiat55/pr_2
+// Посилання на файл: https://github.com/anastasiat55/pr_2/blob/main/prakt2.ts
 
 type Post = { userId: number; id: number; title: string; body: string };
 
@@ -32,3 +32,4 @@ async function loadPosts(postsContainer: HTMLElement | null, limit: number = 5):
     }
   }
 }
+
